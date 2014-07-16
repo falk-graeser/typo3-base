@@ -1,0 +1,28 @@
+<div id="container">
+    <div id="container_header_bg">
+        <div id="container_header_top">
+            <f:render partial="header_top" />
+        </div><!-- container_header_top -->
+        <div id="container_header_menu">
+            <div id="header_menu">
+                <f:cObject typoscriptObjectPath="lib.header_menu" />
+            </div><!-- header_menu -->
+        </div><!-- container_header_menu -->
+    </div><!-- container_header_bg -->
+    <div id="container_header_image">
+        <div id="header_image">
+            <f:cObject typoscriptObjectPath="lib.header_image" />
+        </div><!-- header_image -->
+    </div><!-- container_header_image -->
+    <div id="container_breadcrumb">
+        <div id="breadcrumb">
+            <f:cObject typoscriptObjectPath="lib.breadcrumb" />
+        </div><!-- breadcrumb -->
+    </div><!-- container_breadcrumb -->
+    <div id="container_content">
+        <f:render section="content" />
+    </div><!-- container_content -->
+    <div id="container_footer">
+        <f:render partial="footer" />
+    </div><!-- container_footer -->
+</div><!-- container -->
